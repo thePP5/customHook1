@@ -5,7 +5,7 @@ import useDocumentTitle from './useDocumentTitle';
 function App() {
   const [count, setCount] = useState(0)
   
-  useDocumentTitle(`${count} `)
+  useDocumentTitle(`${count}`)
 
 function handleDecrement(){
   setCount(prevCount => prevCount -1);
